@@ -392,8 +392,9 @@
 	}
 
 	.\34 u, .\34 u\24 {
-		width: 33.3333333333%;
-		clear: none;
+        
+		width: 33%;
+        clear: none;
 		margin-left: 0;
 	}
 
@@ -1613,7 +1614,7 @@
 /* Type */
 
 	body {
-		background-color: #1b1b1b;
+		background-color: #94c1d8;
 		color: rgba(255, 255, 255, 0.75);
 	}
 
@@ -1816,7 +1817,7 @@
 		border-radius: 4px;
 		margin-bottom: 2em;
 		overflow: hidden;
-		padding: 4em;
+		padding: 7em;
 	}
 
 		.box > :last-child,
@@ -2526,8 +2527,17 @@
 			width: 100%;
 		}
 
+
+
+
+
+
+        /* redimentionnement des images */
+
+
 			.image.fit img {
-				width: 100%;
+				width: 512px;
+                height: 256px; 
 			}
 
 		.image.main {
@@ -3270,7 +3280,8 @@
 /* Header */
 
 	body.subpage {
-		padding-top: 3.125em;
+        /*      taille bandeau     */ 
+		padding-top: 6.125em;
 	}
 
 	@-moz-keyframes reveal-header {
@@ -3325,9 +3336,12 @@
 		background-color: transparent;
 		color: #fdd1d1;
 		cursor: default;
-		height: 3.25em;
+        
+        
+        /*      taille du bandeau     */ 
+		height: 6.22em;
 		left: 0;
-		line-height: 3.25em;
+		line-height: 6.25em;
 		position: fixed;
 		text-align: right;
 		top: 1em;
@@ -3338,7 +3352,7 @@
 
 		#header.alt {
 			top: 0;
-			background: #F64747;
+			background: rgba(106, 95, 85, 0.83);
 		}
 
 		#header .logo {
@@ -3426,12 +3440,12 @@
 	@media screen and (max-width: 980px) {
 
 		body.subpage {
-			padding-top: 50px;
+			padding-top: 100px;
 		}
 
 		#header {
-			height: 50px;
-			line-height: 50px;
+			height: 100px;
+			line-height: 100px;
 		}
 
 			#header > h1 {
@@ -4179,10 +4193,11 @@
 /* Footer */
 
 	#footer {
-		background-color: #F64747;
-		color: #fdd1d1;
+		background-color: #FFFFFF;
+		color: #696969;
 		padding: 6em 0 4em 0;
-		background: #F64747;
+		background: rgba(106, 95, 85, 0.83);
+        background-image: "images/banner3.jpg"; 
 	}
 
 		#footer input, #footer select, #footer textarea {
